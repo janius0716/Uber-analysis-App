@@ -50,10 +50,11 @@ df['hour'] = df['pickup_datetime'].dt.hour
 # Filter component - select time of day category
 st.sidebar.header('Time of Day Category')
 time_categories = {
-    'Morning': range(6, 12),
-    'Noon': range(12, 15),
+    'Early Morning': range(0, 6),
+    'Morning': range(6, 11),
+    'Noon': range(11, 15),
     'Afternoon': range(15, 19),
-    'Evening': list(range(19, 24)) + list(range(0, 6))
+    'Evening': range(19, 24)
 }
 selected_category = st.sidebar.radio('Select Time Category', list(time_categories.keys()))
 
