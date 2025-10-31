@@ -9,10 +9,10 @@
 - (3) As passengers, common troubles mainly involve drivers taking a long time to arrive after accepting the order, drivers taking detours midway to overcharge. And also for drivers, common troubles encountered when picking up passengers include passengers providing inaccurate locations that lead to detours during pickup, passengers changing destinations temporarily after getting in the car which increases travel costs. Therefore we want to try our modest best to solve some of these problems.
 
 ## 3. The process of analyzing:
-- (1)final-step1: We extracted data from kaggle and saved it as uber.csv.
-- (2)final-step2: We have cleaned the data, removing anomalous and useless data and saved it as processed_uber_fares.csv.
-- (3)final-step3: We analyzed the data from processed_uber_fares.csv by using pandas to check whether the data is suitable for business analysis.
-- (4)We developed the Uber_Fare_Dataset_Analysis_App and then corrected the format to make Uber_Fare_Dataset_Analysis_App.py follow PEP8. And the new py is called Uber_App_for_PEP8.py.
+- (1) final-step1: We extracted data from kaggle and saved it as uber.csv.
+- (2) final-step2: We have cleaned the data, removing anomalous and useless data and saved it as processed_uber_fares.csv.
+- (3) final-step3: We analyzed the data from processed_uber_fares.csv by using pandas to check whether the data is suitable for business analysis.
+- (4) We developed the Uber_Fare_Dataset_Analysis_App and then corrected the format to make Uber_Fare_Dataset_Analysis_App.py follow PEP8. And the new py is called Uber_App_for_PEP8.py.
 
 ## 4. Questions
 - Question1：What is the relationship between the number of passengers and fare amount?
