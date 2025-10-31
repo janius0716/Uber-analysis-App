@@ -54,6 +54,6 @@
   description: we categorized the fare amount into three parts --- cheap(lower than 15), medium(between 15 to 50), and expensive(more than 50) respectively. The chart reveals different frequencies.
 
 ## 7. Links
-- Streamlit app：https://uber-analysis-app-vmnlugtnzj7sw5zsszlz4q.streamlit.app/
+- Streamlit app：https://uber-analysis-app-k6fkkpkwh4z45ygwuuokfq.streamlit.app/
 - GitHub repo：https://github.com/janius0716/Uber-analysis-App#
 
